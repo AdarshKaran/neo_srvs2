@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Optimizer.srv"
   "srv/InitializeContourMatching.srv"
   "srv/SetSafetyField.srv"
+  "srv/SaveDockPose.srv"
   DEPENDENCIES geometry_msgs neo_msgs2
 )
 

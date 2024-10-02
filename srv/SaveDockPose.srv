@@ -1,0 +1,9 @@
+# Service to save the current pose of the robot as a dock pose for the Nav2 docking server.
+
+string dock_id       # Unique identifier for the dock
+string dock_type     # Type of the dock
+string dock_frame    # Frame of reference for the dock pose
+
+---
+bool success         # Indicates whether the operation was successful
+string message       # Message providing additional information about the operation
